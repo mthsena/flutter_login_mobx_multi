@@ -1,0 +1,28 @@
+name: flutter_login_mobx_multi
+description: A simple flutter login using mobx and multirepo.
+version: 1.0.0+1
+
+publish_to: none
+
+environment:
+  sdk: ^2.19.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_mobx: ^2.0.6+5
+  flutter_login_mobx_multi_theming:
+    git:
+      url: https://github.com/mthsena/flutter_login_mobx_multi_theming.git
+  flutter_login_mobx_multi_authentication:
+    git:
+      url: https://github.com/mthsena/flutter_login_mobx_multi_authentication.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
